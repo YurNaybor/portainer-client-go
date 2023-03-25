@@ -65,5 +65,5 @@ go-get:
 
 # Organize modules
 .PHONY: go-mod-tidy
-go-get:
-	go mod-tidy
+go-mod-tidy:
+	go mod tidy
